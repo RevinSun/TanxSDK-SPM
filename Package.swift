@@ -16,17 +16,17 @@ let package = Package(
         .binaryTarget(
             name: "TanxSDKBinary",
             url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.30/TanxSDK.xcframework.zip",
-            checksum: "81e954ac61eabed29f345de7bf174d9b3bd76abf67311873505443ba61098d4c"
+            checksum: "be88e23dc272b129a8fc0e5d7cdfa7334f9d79e3fe020d12333b34fd13f06e02"
         ),
         .binaryTarget(
             name: "TNXASDK",
             url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.30/TNXASDK.xcframework.zip",
-            checksum: "62884545a12200f27c8abfc48224c1e5b8cbae427299af16a89fb6d0a1508737"
+            checksum: "7dc8777e5bafe78f9d6141fc8a248e1c4d59b7df0260a07f862898caa62a2571"
         ),
         .binaryTarget(
             name: "TanxMonitor",
             url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.30/TanxMonitor.xcframework.zip",
-            checksum: "4bfd677bfe9898cf31dac7bc68d4685d42abedbb2e551b48c6f16270f119ea71"
+            checksum: "dedc8bedbd7608ade190a00974e9c0b43ed2b213c79ee012e84061435bbaab90"
         ),
 
         // Wrapper：用于携带资源（TanxID.bundle）并依赖二进制 TanxSDK
