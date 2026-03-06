@@ -15,18 +15,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TanxSDKBinary",
-            url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.34/TanxSDK.xcframework.zip",
-            checksum: "62fef69e18ec5c077de82f6e2dacef02aa97de129edc85ac5c11c8727521b4ab"
+            url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.35/TanxSDK.xcframework.zip",
+            checksum: "08514ad94b2caf5bf2606249af9efbf9158f7c7e75a60b59234821aa9505ecae"
         ),
         .binaryTarget(
             name: "TNXASDK",
-            url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.34/TNXASDK.xcframework.zip",
-            checksum: "f61a33ce921f29a75e58be071c36c71129f97a793161bc8f1d4eaf313c14a8cf"
+            url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.35/TNXASDK.xcframework.zip",
+            checksum: "2244c9254ac23c8ceb4575323347050926c76317aef9d41bbfbb3fb598f07727"
         ),
         .binaryTarget(
             name: "TanxMonitor",
-            url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.34/TanxMonitor.xcframework.zip",
-            checksum: "9a4ae132494f8200ef4b553b51fddfe587353c070c92794934f3d72af28855fb"
+            url: "https://github.com/RevinSun/TanxSDK-SPM/releases/download/3.7.35/TanxMonitor.xcframework.zip",
+            checksum: "eebf321c0c27aa76991e7cbbdab3a668cfa5bc30476cdf2ce0cb408db89eef60"
         ),
 
         // Wrapper：用于携带资源（TanxID.bundle）并依赖二进制 TanxSDK
