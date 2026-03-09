@@ -12,7 +12,7 @@ TanxSDK支持主流样式覆盖和电商预算适配互动样式能力
 <img src="https://github.com/user-attachments/assets/ecc4edd8-7132-4cde-bfcc-f347f6383d4a" width="40%"/>
 
 （3）激励广告  
-<img src="https://github.com/user-attachments/assets/f709dd9f-458b-4d0d-93f4-6cb7a551e04b" width="40%"/>
+<img src="https://github.com/user-attachments/assets/f709dd9f-458b-4d0d-93f4-6cb7a551e04b" width="80%"/>
 
 支持激励广告类型：  
 - 媒体端内激励视频  
