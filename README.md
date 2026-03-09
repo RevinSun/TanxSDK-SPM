@@ -5,14 +5,14 @@ TanxSDK是阿里妈妈为外部媒体提供广告变现的产品； 
 TanxSDK支持主流样式覆盖和电商预算适配互动样式能力
 
 （1）开屏  
-<img src="https://github.com/user-attachments/assets/387752b4-fc6e-45f3-813f-b1595b6c06ff" width="60%"/>
+<img src="https://github.com/user-attachments/assets/387752b4-fc6e-45f3-813f-b1595b6c06ff" width="40%"/>
 
 （2）信息流   
 【支持点击、滑动互动样式】：  
-<img src="https://github.com/user-attachments/assets/ecc4edd8-7132-4cde-bfcc-f347f6383d4a" width="60%"/>
+<img src="https://github.com/user-attachments/assets/ecc4edd8-7132-4cde-bfcc-f347f6383d4a" width="40%"/>
 
 （3）激励广告  
-<img src="https://github.com/user-attachments/assets/f709dd9f-458b-4d0d-93f4-6cb7a551e04b" width="60%"/>
+<img src="https://github.com/user-attachments/assets/f709dd9f-458b-4d0d-93f4-6cb7a551e04b" width="40%"/>
 
 支持激励广告类型：  
 - 媒体端内激励视频  
@@ -22,7 +22,7 @@ TanxSDK支持主流样式覆盖和电商预算适配互动样式能力
 
 （4）插屏  
 仅支持模板渲染接入，有图文样式  
-<img src="https://github.com/user-attachments/assets/131a9518-8d92-4aba-8742-530619cbaf58" width="60%"/>
+<img src="https://github.com/user-attachments/assets/131a9518-8d92-4aba-8742-530619cbaf58" width="40%"/>
 
 2.接入优势  
 （1）接入开发高效  
