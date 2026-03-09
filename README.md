@@ -70,13 +70,13 @@ pod install
 
 ## 常见问题
 
-1. **编译报错 `Undefined symbol: std::get_terminate() / std::set_terminate(...)`**
+1. **编译报错 `Undefined symbol: std::get_terminate() / std::set_terminate(...)`**  
 确认已链接 C++ 标准库，否则会出现上述 undefined symbol。需要在 Xcode -> Target -> Build Settings -> Other Linker Flags 添加 -lc++。
 
 2. **运行错误 `-[TXAdSDKConfiguration markSDKInitialized]: unrecognized selector sent to instance 0X0000000"`**  
 确认添加 -ObjC，否则会导致 ObjC category 没被链接进来，从而出现unrecognized selector。需要在Xcode -> Target -> Build Settings -> Other Linker Flags 添加-ObjC。
 
 
-## 联系支持
+## 联系支持  
 
 如有任何问题，请联系：xuanjing.wjt@taobao.com
