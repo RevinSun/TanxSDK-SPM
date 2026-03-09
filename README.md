@@ -8,7 +8,7 @@ TanxSDK支持主流样式覆盖和电商预算适配互动样式能力
 <img src="https://github.com/user-attachments/assets/387752b4-fc6e-45f3-813f-b1595b6c06ff" width="60%"/>
 
 （2）信息流   
-【支持点击、滑动互动样式】：
+【支持点击、滑动互动样式】：  
 <img src="https://github.com/user-attachments/assets/ecc4edd8-7132-4cde-bfcc-f347f6383d4a" width="60%"/>
 
 （3）激励广告  
@@ -25,8 +25,8 @@ TanxSDK支持主流样式覆盖和电商预算适配互动样式能力
 <img src="https://github.com/user-attachments/assets/131a9518-8d92-4aba-8742-530619cbaf58" width="60%"/>
 
 2.接入优势  
-（1）接入开发高效<br>
-- 通过SDK包方式集成，开发者开发成本小，平均1~5天即可完成接入<br>
+（1）接入开发高效  
+- 通过SDK包方式集成，开发者开发成本小，平均1~5天即可完成接入
 - 轻量级包体，安卓包体0.5M、iOS包体2.1M，减少应用负担
 - 接入过程中，技术团队钉钉在线答疑解决，响应速度快
 
@@ -70,14 +70,12 @@ pod install
 
 ## 常见问题
 
-1. **编译错误 `-framework "TanxMonitor.xcframework"`**: 
-   确保使用了上述post_install钩子。
+1. **编译报错 `Undefined symbol: std::get_terminate() / std::set_terminate(...)`**
+确认已链接 C++ 标准库，否则会出现上述 undefined symbol。需要在 Xcode -> Target -> Build Settings -> Other Linker Flags 添加 -lc++。
 
-2. **模拟器运行问题**:
-   检查架构设置是否正确配置。
+2. **运行错误 `-[TXAdSDKConfiguration markSDKInitialized]: unrecognized selector sent to instance 0X0000000"`**  
+确认添加 -ObjC，否则会导致 ObjC category 没被链接进来，从而出现unrecognized selector。需要在Xcode -> Target -> Build Settings -> Other Linker Flags 添加-ObjC。
 
-3. **符号链接问题**:
-   如果在项目目录下发现TanxMonitor.xcframework符号链接，可以安全删除，因为真正的框架文件已在Pods/TanxSDK/目录下。
 
 ## 联系支持
 
